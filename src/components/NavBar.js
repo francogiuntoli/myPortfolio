@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
-import { Link, AppBar, Toolbar, IconButton, Typography, MenuItem, Menu, Grid} from "@material-ui/core";
+import { Link, AppBar, Toolbar, IconButton, MenuItem, Menu, Grid} from "@material-ui/core";
 import {makeStyles } from "@material-ui/core/styles";
 
 

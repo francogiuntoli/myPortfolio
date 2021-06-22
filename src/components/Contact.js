@@ -48,7 +48,7 @@ export default function AboutMe (){
 				<div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
 
 				
-				<img width='30px' height='30px' src='./assets/logo.png'/>
+				<img width='30px' height='30px' src='./assets/logo.png' alt=''/>
 				<p style={{ color: "#ff524e", fontSize:'0.8em' }}>
 					made by Franco Giuntoli 
 				</p>
