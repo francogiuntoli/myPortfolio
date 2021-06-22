@@ -4,7 +4,7 @@ import {makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		maxWidth: 345,
+		maxWidth: 375,
 	},
 	link:{
 	   color:"white",
@@ -67,7 +67,7 @@ export default function AboutMe (){
 	display: "flex",
 	flexDirection: "column",
 	alignItems: "center",	
-	padding:'0.34em',
+	padding:5,
 	paddingBottom:'2em',
 };
   
@@ -79,15 +79,15 @@ export default function AboutMe (){
 			<p className={classes.skillText}>
 			I'm a web developer currently living in Copenhagen, Denmark. My main focus is becoming the best Full-Stack developer I can become. I'm a fan of woodworking, music and travelling. I've been involved with programming for more than 15 years and when the Covid-19 pandemic hit I decided to start investing all my time and effort into making it my career path. I've worked in different countries and developed different social and technical skills that I can apply daily when designing, organizing the code structure and problem solving.
 			</p>
-			<p style={{width:'98%' }}className={classes.skillText}>
+			<p className={classes.skillText}>
 				I've focus on this stack so far:
-				<div style={{display:'flex', justifyContent:"space-evenly", textAlign:'start',}}>
+				<div style={{ display:'flex', justifyContent:"space-evenly", textAlign:'start', flexWrap:'wrap'}}>
 						<ul>
 							<li> <img width='20px' src='./assets/html5.svg' alt=''/> HTML5</li>
 							<li> <img width='20px' src='./assets/css3.svg' alt=''/> CSS3</li>
 							<li> <img width='20px' src='./assets/reactnative.svg' alt=''/> ReactJS</li>
 							<li> <img width='20px' src='./assets/bootstrap.svg' alt=''/> Bootstrap</li>
-							<li> <img width='20px' src='./assets/materialui.svg' alt=''/> Google Material UI</li>
+							<li> <img width='20px' src='./assets/materialui.svg' alt=''/> Material UI</li>
 							<li> <img width='20px' src='./assets/javascript.svg' alt=''/> JQuery</li>
 						</ul>
 						<ul>
