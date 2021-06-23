@@ -70,8 +70,8 @@ export default function Home (){
                 Fullstack JavaScript Developer
               </Typography>
             </Typist>
-		  	<IconButton href='#aboutme' color='primary'>
-				  <ExpandMoreIcon  />
+		  	<IconButton size='medium' href='#aboutme' color='primary'>
+				  <ExpandMoreIcon fontSize='large' />
 	        </IconButton>
           </Grid>
       </Grid>
