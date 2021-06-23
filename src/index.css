@@ -37,6 +37,6 @@ ul li::before {
   margin-left: -1em;
 }
 
-/* p{
-  color: rgb(59, 113, 20, 0.8);
-} */
+h1{
+  font-size: 3em;
+}

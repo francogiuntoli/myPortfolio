@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
 	skillText : {
 		color: "white",
 		width: "85%",
-		fontSize: "1.1em",
+		fontSize: "1.5em",
 		lineHeight: "1.5",
 		fontWeight: 200,
 		marginBottom:'2.5em',

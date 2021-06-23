@@ -126,8 +126,8 @@ export default function AboutMe (){
 								<CardHeader className={classes.cardTitle} title="Topoli Arts" subheader="Delivered on: May 21, 2021" />
 								<CardMedia className={classes.media} image="../assets/topoliarts.png" title="topoli arts" />
 								<CardContent>
-									<Typography variant="body2"  component="p">
-										This is a web application with some content management features where professional artists as mentors get to offer mentorships courses,
+									<Typography variant="body2" color="textSecondary" component="p">
+										This is a web application with content management features where professional artists as mentors get to offer courses,
 										interact with students and also where students get to interact with each other.{" "}
 									</Typography>
 								</CardContent>
