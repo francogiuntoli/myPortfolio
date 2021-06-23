@@ -1,7 +1,9 @@
 import React from "react";
-import { Typography, Avatar, Grid} from "@material-ui/core";
+import { IconButton, Typography, Avatar, Grid} from "@material-ui/core";
 import { useTheme, makeStyles } from "@material-ui/core/styles";
 import Typist from 'react-typist';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
 
 
 
@@ -37,7 +39,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-
 export default function Home (){
   const theme = useTheme();
   const classes = useStyles();
@@ -69,6 +70,9 @@ export default function Home (){
                 Fullstack JavaScript Developer
               </Typography>
             </Typist>
+		  	<IconButton href='#aboutme' color='primary'>
+				  <ExpandMoreIcon  />
+	        </IconButton>
           </Grid>
       </Grid>
     </div>
